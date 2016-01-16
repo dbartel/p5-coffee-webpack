@@ -1,0 +1,21 @@
+{
+  "name": "sketchbook",
+  "version": "0.0.0",
+  "description": "Processing Sketch",
+  "main": "bundle.js",
+  "dependencies": {
+    "chai": "3.4.1",
+    "lodash": "4.0.0",
+    "p5": "0.4.21"
+  },
+  "devDependencies": {
+    "mocha": "2.3.4",
+    "coffee-script": "1.10.0",
+    "coffee-loader": "0.7.2"
+  },
+  "scripts": {
+    "test": "mocha js/lib/test --compilers coffee:coffee-script/register"
+  },
+  "author": "Daniel Bartel",
+  "license": "ISC"
+}
